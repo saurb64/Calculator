@@ -1,0 +1,18 @@
+import time 
+
+time_H = time.strftime('%H')
+print(time_H)
+
+if time_H > '01' and time_H  <'10':
+  print("Good Morning sir")
+
+elif time_H > '10' and time_H < '16':
+  print("Good Afternoon sir")
+
+elif time_H > '16' and time_H < '18':
+  print("Good Evening sir")
+
+elif time_H > '18' and time_H < '24':
+  print("Good Night sir")
+else:
+  print("thank you")
